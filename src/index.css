@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.headerNav{
+  box-shadow: 1px 1px red
+}
+.mainDiv{
+  height: -webkit-fill-available;
+}
+.mainComponent{
+width: 100%;
+height: 100%;
+}
+.sideBarMenu{
+  background: #30353A;
+
+}
+.applogoImg{
+  color: #63C2DE;
+  text-align: center;
+}
+.sideBarListMenuItems{
+
+  list-style: none;
+  text-align: left;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+.sideBarListMenuItems li{
+  padding: 8px 20px
+}
+.sideBarListMenuItems li:hover{
+  border-left: 3px solid #63C2DE;
+  transition: 0.3s;
+  cursor: pointer;
+}
